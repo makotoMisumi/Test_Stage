@@ -27,20 +27,20 @@ function connexion_inscription(){
                                 $_POST['erreur'] = inscriptiton($prenom, $nom, $id, $password, $date, $gender_id);
 
                             }else{
-                                $_POST['erreur'] = "adresse email ou numero non valide";
+                                $_POST['erreur'] = "adresse email ou numéro non valide";
                             }
                         }else{
-                            $_POST['erreur'] = "les numero ou email ne correspondent pas.";
+                            $_POST['erreur'] = "les numeros ou emails ne correspondent pas.";
                         }
                    }else{
-                       $_POST['erreur'] = "Le nom ne peut depasser 255 charactere."; 
+                       $_POST['erreur'] = "Le nom ne peut dépasser 255 charactéres."; 
                    }
                }else{
-                  $_POST['erreur'] = "Le prenom ne peut depasser 255 charactere."; 
+                  $_POST['erreur'] = "Le prénom ne peut dépasser 255 characteres."; 
                }
 
            }else{
-                $_POST['erreur'] = "remplissez toute les cases.";
+                $_POST['erreur'] = "remplissez toutes les cases.";
            }
         }elseif(isset($_POST['formConnexion'])){
             if(!empty($_POST['co_id']) AND !empty($_POST['co_password'])){
@@ -54,7 +54,7 @@ function connexion_inscription(){
                      $_POST['erreur2'] = "Mauvais identifiants";
                 }
             }else{
-                 $_POST['erreur2'] = "Entrer les informations de connexion.";
+                 $_POST['erreur2'] = "Entrez les informations de connexion.";
             }
         }
     }else{
