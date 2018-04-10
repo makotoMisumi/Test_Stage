@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  background-color: #e9ebee;
+}
+#connexion{
+  padding-top: 0.7em;
+  height: 6em;
+  background-color: #2b4170; 
+  background: -moz-linear-gradient(top, #3b5998, #2b4170);
+  background: -ms-linear-gradient(top, #3b5998, #2b4170);
+  background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+  margin-bottom: 4em;
+}
+
+#button{
+  background-color: #4267b2;
+  border: 1px solid black;
+  color: white;
+  height: 24px;
+  font-size: 12px;
+ 
+}
+.lableid{
+  font-size: 10px;
+  color: white;
+ 
+}
+#co_id{
+  width: 11em;
+  font-size: 13px;
+}
+#co_password{
+  width: 11em;
+  font-size: 14px;
+}
+#button2{
+  border-radius: 4px;
+  color: white;
+  background-color: #5b9348;
+  border: 1px solid black;
+  width: 9em;
+  height: 2.5em;
+  margin-top: 1em;
+}
+p{
+  font-size: 17px;
+}
+#texte{
+  font-size:10px; 
+  color: #897777;
+}
